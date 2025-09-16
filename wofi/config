@@ -1,0 +1,13 @@
+term = kitty
+allow_markup = true
+insensitive = true
+prompt = Buscar:
+lines = 20
+columns = 1
+width = 800
+height = 900
+location = center
+show-icons = true
+always_parse_args = true
+hide-scroll = true
+dynamic_lines = false

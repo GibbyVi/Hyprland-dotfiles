@@ -1,0 +1,34 @@
+[global]
+    font = Raleway 10
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = center
+    transparency = 10
+    show_indicators = no
+    separator_color = frame
+    padding = 16
+    horizontal_padding = 24
+    frame_width = 2
+    frame_color = "#a100f2"
+    corner_radius = 10
+    width = (300, 500)
+    timeout = 5
+    background = "#0f0f1a"
+    foreground = "#d6d6ff"
+    separator_height = 2
+
+[urgency_low]
+    frame_color = "#a100f2"
+    background = "#0f0f1a"
+    foreground = "#d6d6ff"
+
+[urgency_normal]
+    frame_color = "#d900ff"
+    background = "#0f0f1a"
+    foreground = "#ffffff"
+
+[urgency_critical]
+    frame_color = "#ff0077"
+    background = "#1a000f"
+    foreground = "#ffffff"
+    timeout = 5
